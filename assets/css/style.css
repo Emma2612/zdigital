@@ -4851,11 +4851,11 @@ body.v-light .blog-item-list .background-hover::before {
   background: #fff;
 }
 
-.dsn-posts.d-grid.grid-lg-1 {
+/* .dsn-posts.d-grid.grid-lg-1 {
   -ms-grid-columns: (1fr)[1];
   grid-template-columns: repeat(1, 1fr);
   grid-row-gap: var(--margin-padding);
-}
+} */
 @media only screen and (max-width: 991px) {
   .dsn-posts.d-grid.grid-lg-1 {
     grid-row-gap: var(--margin-padding-mobile);
