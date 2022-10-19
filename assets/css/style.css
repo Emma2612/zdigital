@@ -2513,6 +2513,10 @@ ul.lest-box li:last-of-type {
   width: 100px;
 }
 
+.services-item:last-child:nth-child(3n-2) {
+  grid-column-end: 3
+}
+/* trial end */
 .pricing .pricing-item {
   position: relative;
 }
@@ -3938,7 +3942,8 @@ header .scroll-d img {
 .dsn-slider .dsn-slider-content .slide-content.dsn-active .title,
 .dsn-slider .dsn-slider-content .slide-content.dsn-active .metas,
 .dsn-slider .dsn-slider-content .slide-content.dsn-active .link-custom,
-.dsn-slider .dsn-slider-content .slide-content.dsn-active .description {
+.dsn-slider .dsn-slider-content .slide-content.dsn-active .description,
+.dsn-slider .dsn-slider-content .slide-content.dsn-active a{
   pointer-events: auto;
 }
 .dsn-slider .dsn-slider-content .slide-content:not(.dsn-active) .title,
@@ -5475,6 +5480,11 @@ input[type=submit] {
 .footer .footer-credits .copyright a {
   color: var(--theme-color);
 }
+
+.footer .footer-credits .privacy a{
+color: var(--theme-color);
+}
+
 .footer .footer-credits .block ul li {
   position: relative;
   display: inline-block;
