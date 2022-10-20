@@ -2514,7 +2514,7 @@ ul.lest-box li:last-of-type {
 }
 
 .services-item:last-child:nth-child(3n-2) {
-  grid-column-end: 3
+  grid-column-end: -2;
 }
 /* trial end */
 .pricing .pricing-item {
@@ -5545,4 +5545,9 @@ body.v-light .footer .logo-footer img.logo-light {
 
 .box-seat .pro-text {
   bottom: -120px;
+}
+/* services section */
+.banner-image
+{
+  margin: -40px 0 0 0;
 }
