@@ -5101,6 +5101,7 @@ body.v-light .blog-item-list .background-hover::before {
 -------------------------------------------------------- */
 .form-group {
   width: 100%;
+  padding-bottom: 20px;
 }
 .form-group .help-block {
   color: red;
@@ -5112,7 +5113,9 @@ body.v-light .blog-item-list .background-hover::before {
   list-style: none;
 }
 .form-group input,
-.form-group textarea {
+.form-group textarea,
+.form-group select,
+.form-group option{
   background-color: transparent;
   width: 100%;
   height: 50px;
@@ -5550,7 +5553,24 @@ body.v-light .footer .logo-footer img.logo-light {
 .banner-image
 {
   margin: -40px 0 0 0;
+  text-align: right;
 }
+@media (min-width: 576px){
+.col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}}
+
+@media only screen and (max-width: 992px){
+  .banner-image {
+      margin: 40px 0;
+  }
+}
+
+@media only screen and (max-width: 767px){
+.banner-image {
+    text-align: center;
+}}
 
 /* Pagination Trial */
 .pagination {
@@ -5623,4 +5643,9 @@ body.v-light .footer .logo-footer img.logo-light {
   font-size: 15px;
 }
 
-/*Resize the wrap to see the search bar change!*/
+/* contact form icons */
+.contact-icon{
+  color: var(--lighter-theme-color);
+}
+
+/* carousel styling */
