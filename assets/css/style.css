@@ -5752,3 +5752,59 @@ body.v-light .footer .logo-footer img.logo-light {
  background-color: #FFC107;
 }
 
+/* Phone Mockup Styling */
+
+.phone{
+  background-color: black;
+  box-shadow: 10px #000;
+  border-radius: 30px;
+  width: 400px;
+  height:750px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.phone-wrapper{
+  background-color: white;
+  height:100%;
+  border-radius: 30px;
+}
+
+.phone-content{
+  height:100%;
+}
+.phone-content-header{
+  border-top-left-radius:30px;
+  border-top-right-radius:30px;
+  height:20%;
+  background-color: #14bfb5;
+}
+
+.phone-content-header .row-content-header{
+  border-top-left-radius:30px;
+  border-top-right-radius:30px;
+  height: 25%;
+}
+
+.phone-content-body{
+  height:50%;
+}
+.phone-content-footer{
+  border-bottom-left-radius:30px;
+  border-bottom-right-radius:30px;
+  height:30%;
+  background-color: #14bfb5;
+}
+
+/* Home Page Icons */
+.icon-home{
+  height:99px;
+  width: 116px;
+}
+
+.icon-home img{
+  width: 100%;
+  max-width:max-content;
+}
