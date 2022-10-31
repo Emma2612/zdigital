@@ -5679,87 +5679,14 @@ body.v-light .footer .logo-footer img.logo-light {
 .contact-icon{
   color: var(--lighter-theme-color);
 }
-
-/* carousel styling */
-.dm-width {
-  width: 500px;
-  margin: 0 auto;
-}
-
-.iphone-mockup {
-  position: relative;
-  z-index: 5;
-}
-
-.dm-device {
-   position: relative;
-   width: 100%;
-   padding-bottom:203.477897%;
-   margin-bottom: 20px;
-}
-
-.device {
- position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   width: 100%;
-   height: 100%;
-   -webkit-background-size: 100% 100%;
-   
-   background-repeat: no-repeat;
-         background-image: url(https://res.cloudinary.com/di5yipnns/image/upload/v1482236588/apple-iphone_aivldo.png);
- background-size: cover;
-   background-position: center center;
-}
-
-.screen {
-  overflow: hidden;
-   position: absolute;
-   top: 18.1%;
-   bottom: 20.6%;
-   left: 12.49%;
-   right: 17.4%;
-   background-color: #E91E63;
-}
-
-.slider {
- height: 100%;
-}
-.slider div {
- height: 100%;
-}
-
-.slider__item img {
-   width:100%;
-   height: 100%;
-   position: absolute;
-   display: flex;
-}
-
-.slider__item--1 {
-  background-color: #E91E63;
-}
-.slider__item--2 {
-  background-color: #2196F3;
-}
-.slider__item--3 {
-  background-color: #4CAF50;
-}
-
-.slider__item--4 {
- background-color: #FFC107;
-}
-
 /* Phone Mockup Styling */
 
 .phone{
   background-color: black;
   box-shadow: 10px #000;
   border-radius: 30px;
-  width: 400px;
-  height:750px;
+  width: 350px;
+  height:700px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
@@ -5779,7 +5706,6 @@ body.v-light .footer .logo-footer img.logo-light {
   border-top-left-radius:30px;
   border-top-right-radius:30px;
   height:20%;
-  background-color: #14bfb5;
 }
 
 .phone-content-header .row-content-header{
@@ -5790,13 +5716,48 @@ body.v-light .footer .logo-footer img.logo-light {
 
 .phone-content-body{
   height:50%;
+  background-color: transparent;
 }
 .phone-content-footer{
   border-bottom-left-radius:30px;
   border-bottom-right-radius:30px;
   height:30%;
-  background-color: #14bfb5;
 }
+
+.mockup-cam-icon{
+  height:25px;
+  width: 50px;
+}
+
+.instagram-font-icon{
+  height:35px;
+  margin-left: 18px;
+}
+
+.mockup-profile-bar{
+  padding-top:27px;
+}
+.post-img{
+  height:330px;
+  width:310px;
+}
+.mockup-caption{
+  height: 80%;
+}
+
+.mockup-menu-bar{
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius:30px;
+}
+
+.border-bottom-ig{
+  border-bottom: 1px solid var(--border-color);
+}
+/* Phone Mockup Styling Ends */
+
+/* Slider Carousel */
+
+/* Slider Carousel Ends */
 
 /* Home Page Icons */
 .icon-home{
