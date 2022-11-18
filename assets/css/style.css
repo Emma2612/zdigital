@@ -5682,19 +5682,16 @@ body.v-light .footer .logo-footer img.logo-light {
 /* Phone Mockup Styling */
 
 .phone{
-  background-color: black;
+  border:solid 20px black;
   box-shadow: 10px #000;
-  border-radius: 30px;
+  border-radius: 40px;
   width: 350px;
   height:700px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  
 }
 
 .phone-wrapper{
-  background-color: white;
+  background-color: transparent;
   height:100%;
   border-radius: 30px;
 }
@@ -5706,6 +5703,7 @@ body.v-light .footer .logo-footer img.logo-light {
   border-top-left-radius:30px;
   border-top-right-radius:30px;
   height:20%;
+  background-color: white;
 }
 
 .phone-content-header .row-content-header{
@@ -5722,6 +5720,7 @@ body.v-light .footer .logo-footer img.logo-light {
   border-bottom-left-radius:30px;
   border-bottom-right-radius:30px;
   height:30%;
+  background-color: white;
 }
 
 .mockup-cam-icon{
