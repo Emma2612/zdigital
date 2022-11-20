@@ -5680,7 +5680,11 @@ body.v-light .footer .logo-footer img.logo-light {
   color: var(--lighter-theme-color);
 }
 /* Phone Mockup Styling */
-
+.phone-section{
+  padding-left: 387px;
+  position: absolute;
+  z-index: 20;
+}
 .phone{
   border:solid 20px black;
   box-shadow: 10px #000;
@@ -5755,7 +5759,9 @@ body.v-light .footer .logo-footer img.logo-light {
 /* Phone Mockup Styling Ends */
 
 /* Slider Carousel */
-
+.insta-carousel{
+  padding-top: 62px;
+}
 /* Slider Carousel Ends */
 
 /* Home Page Icons */
